@@ -24,7 +24,7 @@ Just run the script, and then then equalizer preset will be selected based on yo
 </p>
 
 <p>
-##Thanks to
+<b>Thanks to:</b>
 Amarok Team for providing such a wonderful scripting framework.
 </p>
 
