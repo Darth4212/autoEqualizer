@@ -26,7 +26,7 @@ from time import sleep
 try:
     from qt import *
 except ImportError:
-    sys.stderr.write("Err!!! I need the Python Qt modules. Please install the python-qt3 package.\n")
+    sys.stderr.write("Error! I need the Python Qt modules. Please install the python-qt3 package.\n")
 
 DEBUG=1
 MODE=1
@@ -34,7 +34,7 @@ MODE=1
 try:
     from dcopext import DCOPClient, DCOPApp
 except ImportError:
-    sys.stderr.write("Err!!! I can't find the dcopext module.\n")
+    sys.stderr.write("Error! I can't find the dcopext module.\n")
     os.popen( "kdialog --sorry 'PyKDE3 (KDE3 bindings for Python) is required for this script.'" )
     raise
 
